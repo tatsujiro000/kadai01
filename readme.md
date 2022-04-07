@@ -21,3 +21,5 @@
 
 課題の動作↓↓↓↓↓↓
 https://tatsuyaoshikiri.work/gs/kadai01/
+
+gitへのpushの際に、間違えてbranchを作ってしまったので、branchが二つあるかと思います。masterの方を見ていただければと。
