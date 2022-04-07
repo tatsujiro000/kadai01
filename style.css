@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+*,button{
+    font-family: 'Stick', sans-serif;
+}
+body{
+    outline: 4px solid rgb(0, 0, 0);
+	outline-offset: -8px;
+    position: relative;
+}
+.title{
+    font-family: 'Rampart One', cursive;
+}
+
+.firstView{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: unset;
+}
+
+.flightRightTop{
+    animation-name: flightRightTopAnime;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes flightRightTopAnime{
+    from {
+        transform: translate(-20px,80px)rotate(25deg);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0,1) rotate(0deg);
+        opacity: 1;
+    }
+}
+
+
+
+/* 伊沢用CSS */
+.rotate{
+    transition: transform 1.5s;
+    transform: rotateY(360deg) scale(0);
+    display: none;
+}
